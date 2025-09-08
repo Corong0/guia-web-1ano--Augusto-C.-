@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnologias Web - Guia Profissional</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/theme.js" defer></script>
+</head>
+<body>
+    <header class="header-fixo">
+        <div class="container-logo">
+            <img src="assets/html-icon.png" alt="Logo" class="logo" height="48">
+            <span class="titulo">Tecnologias Web</span>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                    <line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                </svg>
+                <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                </svg>
+            </button>
+        </div>
+    </header>
+    <main class="home">
+        <section class="intro">
+            <h1>Panorama das Tecnologias Web</h1>
+            <p>Explore as principais tecnologias que formam a base do desenvolvimento web moderno, suas características e casos de uso.</p>
+        </section>
+
+        <section class="tech-grid">
+            <div class="tech-card">
+                <h2>Frontend</h2>
+                <ul>
+                    <li>React</li>
+                    <li>Vue.js</li>
+                    <li>Angular</li>
+                    <li>Next.js</li>
+                    <li>TypeScript</li>
+                </ul>
+            </div>
+            
+            <div class="tech-card">
+                <h2>Backend</h2>
+                <ul>
+                    <li>Node.js</li>
+                    <li>Python/Django</li>
+                    <li>Java Spring</li>
+                    <li>PHP/Laravel</li>
+                    <li>Ruby on Rails</li>
+                </ul>
+            </div>
+            
+            <div class="tech-card">
+                <h2>Banco de Dados</h2>
+                <ul>
+                    <li>PostgreSQL</li>
+                    <li>MongoDB</li>
+                    <li>MySQL</li>
+                    <li>Redis</li>
+                    <li>Firebase</li>
+                </ul>
+            </div>
+        </section>
+
+        <nav class="page-nav">
+            <a href="index.html" class="nav-button">← Voltar</a>
+            <a href="boas-praticas.html" class="nav-button">Boas Práticas →</a>
+        </nav>
+    </main>
+</body>
+</html>
